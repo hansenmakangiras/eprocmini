@@ -5,11 +5,11 @@
 
 // Declare app level module which depends on filters, and services
 
-angular.module('myApp', [
-    'myApp.controllers',
-    'myApp.filters',
-    'myApp.services',
-    'myApp.directives'
+angular.module('eprocMini', [
+    'eprocMini.controllers',
+    'eprocMini.filters',
+    'eprocMini.services',
+    'eprocMini.directives'
 ]).
     config(function ($routeProvider, $locationProvider) {
         $routeProvider.

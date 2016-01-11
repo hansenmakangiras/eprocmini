@@ -1,10 +1,29 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html ng-app="eprocMini">
+<head>
+    <meta charset="UTF-8">
     <title>{{title}}</title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    {{{body}}}
-  </body>
+    <meta name="keyword" content="">
+
+    <meta name="description" content="">
+
+    <meta name="author" content="">
+
+    <meta property="og:image" content="img/logo.png"/>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='assets/css/bootstrap.min.css'/>
+    <!--<link rel='stylesheet' href='assets/css/bootstrap-theme.min.css' />-->
+</head>
+<body ng-app="DTC">
+{{{body}}}
+<div ng-view></div>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/angular.min.js"></script>
+<script src="assets/js/angular-route.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/npm.js"></script>
+</body>
 </html>
